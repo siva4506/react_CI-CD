@@ -12,7 +12,7 @@ COPY . /opt/
 
 RUN npm run build
 
-#stage2
+#stage:2
 
 FROM node:18-alpine
 
