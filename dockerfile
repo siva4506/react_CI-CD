@@ -20,6 +20,6 @@ WORKDIR /opt
 
 COPY --from=build /opt /opt
 
-EXPOSE 3000
+EXPOSE 4000
 
 CMD ["npm" , "start"]
